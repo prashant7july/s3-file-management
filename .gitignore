@@ -1,0 +1,3 @@
+# PHP git ignore files/folders
+vendor/
+.env
