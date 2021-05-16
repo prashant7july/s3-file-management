@@ -6,4 +6,4 @@ docker build --no-cache -f ./Dockerfile -t aws-php:1.0.0 .
 
 docker run -d -p 8080:8080 --name=aws-php aws-php:1.0.0
 
-
+# curl --location --request GET 'http://localhost:8080/public/index.php'
